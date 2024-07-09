@@ -1,19 +1,28 @@
 /* Header styles */
+
 .header {
-    background-color: #333;
+    background-color: #001e8b;
     color: white;
     padding: 10px 20px;
+    font-size: x-large;
 }
 
 .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.app{
+    background-image:url(../Assets/bg.jpg);
+    background-repeat: no-repeat;
 }
 
 .logo {
     display: flex;
     align-items: center;
+    flex-direction: row;
+    font-size: x-large;
 }
 
 .logo-icon {
@@ -47,5 +56,9 @@
 
     .footer {
         padding: 10px 10px;
+    }
+    p{
+        font-size: small;
+        text-wrap: nowrap;
     }
 }

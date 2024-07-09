@@ -5,13 +5,15 @@ import "./styles/headerFooter.css";
 
 const App = () => {
   return (
-    <div className="app">
+    <div className="app ">
       <header className="header">
         <div className="header-container">
           <div className="logo">
             <FaFilm className="logo-icon" />
-            <h1>Movie Watchlist</h1>
+            <h1>Movies Watchlist</h1>
+            
           </div>
+          <p>Craft Your Cinematic Journey: The Ultimate Movie Watchlist Experience!</p>
         </div>
       </header>
 
